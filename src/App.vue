@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <NavegacaoResponsiva :nav_Links="navLinks" :caminhoImagem="require('./assets/logo.png')" fundo="black"
-           corLink="white" hoverfundo="rgba(144, 238, 144, 0.664)" :inicio="inicio"/> <!-- "#777"    "#ddd"                               #fff      -->
+           corLink="white" hoverfundo="rgba(144, 238, 144, 0.664)" :inicio="inicio"/> 
       <router-view/>
   </div>
 </template>
@@ -25,8 +25,8 @@ export default {
 </script>
 
 <style lang="scss">
-        @import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';
-
+        @import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';  
+         
         figure {
           margin-block-start: 0;
           margin-block-end: 0;
